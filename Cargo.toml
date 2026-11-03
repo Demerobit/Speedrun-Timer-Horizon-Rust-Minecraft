@@ -1,0 +1,11 @@
+[package]
+name = "horizon-mod-speedrun-timer"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Speedrun Timer, a native mod for Horizon: an RTA timer in a corner of the screen."
+
+# The mod's logic and its tests: the same file the bundle adds to the game.
+[lib]
+path = "mixins/speedrun_timer/runtime.rs"
